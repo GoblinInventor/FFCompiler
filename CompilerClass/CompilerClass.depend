@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1381279915 source:c:\users\michael\code\compilerclass\ffsymbol.cpp
+	"ffsymbol.h"
+
+1381279932 c:\users\michael\code\compilerclass\ffsymbol.h
+	<string>
+	<vector>
+	<fstream>
+	<iostream>
+
+1381273084 source:c:\users\michael\code\compilerclass\main.cpp
+	"testFFSymbolTable.h"
+	<iostream>
+
+1381352084 source:c:\users\michael\code\compilerclass\symboltable.cpp
+	"symboltable.h"
+
+1381350490 c:\users\michael\code\compilerclass\symboltable.h
+	<stack>
+	<vector>
+	<map>
+	<string>
+	"ffsymbol.h"
+
+1381351913 source:c:\users\michael\code\compilerclass\testffsymboltable.cpp
+	"testFFSymbolTable.h"
+
+1381279279 c:\users\michael\code\compilerclass\testffsymboltable.h
+	<iostream>
+	<fstream>
+	"symboltable.h"
+
+1381271526 c:\users\michael\code\compilerclass\symboltable.cpp
+	<string>
+	"symboltable.h"
+
+1382318916 source:c:\users\michael\code\compilerclass\testingcppfileio.cpp
+	<string>
+	<fstream>
+	<vector>
+	<cctype>
+	<iostream>
+

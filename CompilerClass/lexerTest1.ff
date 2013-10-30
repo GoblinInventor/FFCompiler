@@ -1,0 +1,17 @@
+PROCEDURE legal IS
+i: INTEGER;
+Z: CONSTANT INTEGER := 0;
+BEGIN
+	i := 3;
+	WHILE NOT (i = 0) LOOP
+		DECLARE pos : BOOLEAN;
+			j: INTEGER
+		BEGIN
+			PRINTOUT("hello");
+			READIN(i);
+			pos := i > 0;
+			IF pos THEN PRINTOUT ("entered positive"); ENDIF;
+			IF i<0 THEN PRINTOUT ("entered negative"); ENDIF;
+		END;
+	END LOOP;
+END legal;

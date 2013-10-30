@@ -1,0 +1,11 @@
+SCOPE: 0, NAME: a
+SCOPE: 0, NAME: b
+SCOPE: 0, NAME: c
+SCOPE: 0, NAME: d
+SCOPE: 1, NAME: a
+SCOPE EMPTY: 2
+SCOPE EMPTY: 3
+SCOPE: 4, NAME: &&*^T*(Asdhjklasd)
+SCOPE: 4, NAME: Aa
+SCOPE: 4, NAME: aA
+SCOPE: 4, NAME: a_b*D#QXD!!@%^

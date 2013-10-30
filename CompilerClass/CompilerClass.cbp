@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CompilerClass" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="ffSymbolTableTests\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CompilerClass" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wshadow" />
+					<Add option="-Winit-self" />
+					<Add option="-Wredundant-decls" />
+					<Add option="-Wundef" />
+					<Add option="-Weffc++" />
+					<Add option="-std=c++11" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CompilerClass" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="FFLexicalAnalyzer.cpp" />
+		<Unit filename="FFLexicalAnalyzer.h" />
+		<Unit filename="ffLexer.yy" />
+		<Unit filename="ffSymbolTableTest1.txt">
+			<Option virtualFolder="ffSymbolTableTests/" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="ffSymbolTableTest2.txt">
+			<Option virtualFolder="ffSymbolTableTests/" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="ffSymbolTest0.txt" />
+		<Unit filename="ffsymbol.cpp" />
+		<Unit filename="ffsymbol.h" />
+		<Unit filename="lex.yy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lexerTest1.ff" />
+		<Unit filename="sillylex.yy" />
+		<Unit filename="simpleLexTest.ff" />
+		<Unit filename="simplest.ff" />
+		<Unit filename="simplest2.ff" />
+		<Unit filename="symboltable.cpp" />
+		<Unit filename="symboltable.h" />
+		<Unit filename="testFFSymbolTable.cpp">
+			<Option virtualFolder="ffSymbolTableTests/" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="testFFSymbolTable.h">
+			<Option virtualFolder="ffSymbolTableTests/" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="testff.ff" />
+		<Unit filename="testingCPPFileIO.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<editor_config active="1" use_tabs="1" tab_indents="1" tab_width="4" indent="4" eol_mode="0" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
